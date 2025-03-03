@@ -20,11 +20,11 @@ class Body(val content: StringBuilder = StringBuilder()) {
 }
 
 fun main() {
-    val htmlDocument = html {
+    val HTMLDocument = html {
         body {
             p("This is paragraph!")
         }
     }
 
-    println(htmlDocument)
+    println(HTMLDocument)
 }
